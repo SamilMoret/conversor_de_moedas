@@ -25,6 +25,7 @@
   <li>Exibição do histórico de conversões para consulta futura.</li>
 </ul>
 
+
 ### 🖥️ Tecnologias e Ferramentas: 
 
 <ul>
@@ -45,10 +46,11 @@
   <li>IntelliJ IDEA (ou qualquer outra IDE de sua preferência)</li>
 </ul>
 
+
 <h4>Configuração do Banco de Dados</h4>
 
 <ol>
-  <li>Instale e configure o MySQL Server.</li>
+  <li>Instale e configure o MySQL Workbench.</li>
   <li>Crie um banco de dados chamado `conversion_history`.</li>
   <li>Execute o seguinte script SQL para criar a tabela necessária MySQL:</li>
 </ol>
@@ -64,6 +66,7 @@ CREATE TABLE conversion_history (
     conversion_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 ```
+
 <h4>Configuração da Aplicação</h4>
 
 <ol>
@@ -83,12 +86,14 @@ public class DatabaseUtil {
     }
 }
 ```
+
 <h4>Executando a Aplicação</h4>
 
 <ol>
   <li>Compile e execute a classe CurrencyConverter.</li>
   <li>Siga as instruções no console para realizar conversões e visualizar o histórico.</li>
 </ol>
+
 
 ### Estructura do Projeto
 
