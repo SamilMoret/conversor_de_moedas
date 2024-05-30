@@ -37,17 +37,20 @@
 
 ### Configuração e Execução:
 
-<h2>Pré-requisitos</h2>
-<p>JDK 17 ou superior</p>>
-<p>MySQL Server</p>
-<p>IntelliJ IDEA (ou qualquer outra IDE de sua preferência)</p>
+<h4>Pré-requisitos</h4>
+<ul>
+  <li>JDK 17 ou superior</li>
+  </li>
+  <li>MySQL Workbench</li>
+  <li>IntelliJ IDEA (ou qualquer outra IDE de sua preferência)</li>
+</ul>
 
 <h2>Configuração do Banco de Dados</h2>
 
 <ol>
-  <li>1. Instale e configure o MySQL Server.</li>
-  <li>2. Crie um banco de dados chamado `conversion_history`.</li>
-  <li>3. Execute o seguinte script SQL para criar a tabela necessária MySQL:</li>
+  <li>Instale e configure o MySQL Server.</li>
+  <li>Crie um banco de dados chamado `conversion_history`.</li>
+  <li>Execute o seguinte script SQL para criar a tabela necessária MySQL:</li>
 </ol>
 
 ```
