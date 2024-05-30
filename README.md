@@ -45,7 +45,7 @@
   <li>IntelliJ IDEA (ou qualquer outra IDE de sua preferência)</li>
 </ul>
 
-<h2>Configuração do Banco de Dados</h2>
+<h4>Configuração do Banco de Dados</h4>
 
 <ol>
   <li>Instale e configure o MySQL Server.</li>
@@ -64,7 +64,7 @@ CREATE TABLE conversion_history (
     conversion_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 ```
-<h2>Configuração da Aplicação</h2>
+<h4>Configuração da Aplicação</h4>
 
 <ol>
   <li>Clone o repositório para sua máquina local..</li>
@@ -83,7 +83,7 @@ public class DatabaseUtil {
     }
 }
 ```
-<h2>Executando a Aplicação</h2>
+<h4>Executando a Aplicação</h4>
 
 <ol>
   <li>Compile e execute a classe CurrencyConverter.</li>
@@ -98,7 +98,7 @@ src/
 ├── Currency_Filter.java
 └── DatabaseUtil.java
 
-<h2>Feito por:</h2>
+<h3>Feito por:</h3>
 <p>Samil Moret</p>
 <a href="https://www.linkedin.com/in/samilmoret/"><img width="48" height="48" src="https://img.icons8.com/color/48/linkedin.png" alt="linkedin"/></a>
 <a href="https://linkwhats.app/f27e11"><img width="48" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1"/></a>
