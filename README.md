@@ -18,12 +18,32 @@
 
 
 ### ⚙️ Funcionalidades:
-
-<ul>
-  <li>Conversão de valores entre diferentes moedas usando taxas de câmbio atualizadas.</li>
-  <li>Armazenamento do histórico de conversões em um banco de dados MySQL.</li>
-  <li>Exibição do histórico de conversões para consulta futura.</li>
-</ul>
+<ol>
+    <li>
+        <strong>Conversão de Moedas:</strong
+        <ul>
+            <li>O aplicativo permite que os usuários selecionem a moeda de origem e a moeda de destino, e insiram o valor a ser convertido. Utilizando dados atualizados de uma API externa, o aplicativo realiza a conversão e exibe o resultado.</li>
+        </ul>
+    </li>
+    <li>
+        <strong>Histórico de Conversões:</strong>
+        <ul>
+            <li>As conversões realizadas são armazenadas em um banco de dados MySQL, permitindo que os usuários consultem o histórico de conversões.</li>
+        </ul>
+    </li>
+    <li>
+        <strong>Integração com API Externa:</strong>
+        <ul>
+            <li>O aplicativo utiliza a ExchangeRate-API para obter as taxas de câmbio mais recentes, garantindo que as conversões sejam baseadas em dados atualizados.</li>
+        </ul>
+    </li>
+    <li>
+        <strong>Armazenamento em Banco de Dados:</strong>
+        <ul>
+            <li>As informações de conversão, incluindo moeda de origem, moeda de destino, valor original, valor convertido e a taxa de câmbio, são armazenadas em uma tabela no banco de dados MySQL.</li>
+        </ul>
+    </li>
+</ol>
 
 
 ### 🖥️ Tecnologias e Ferramentas: 
@@ -34,6 +54,7 @@
   <li>MySQL: Banco de dados utilizado para armazenar o histórico de conversões.</li>
   <li>MySQL Connector/J: Driver JDBC para conectar a aplicação Java ao banco de dados MySQL.</li>
   <li>IntelliJ IDEA: IDE utilizada para desenvolvimento do projeto.</li>
+  <li>API de Taxas de Câmbio: ExchangeRate-API</li>
 </ul>
 
 ### Configuração e Execução:
