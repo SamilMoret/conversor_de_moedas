@@ -92,11 +92,13 @@ public class DatabaseUtil {
 
 ### Estructura do Projeto
 
+```
 src/
 ├── CurrencyConverter.java
 ├── ExchangeRateService.java
 ├── Currency_Filter.java
 └── DatabaseUtil.java
+```
 
 <h3>Feito por:</h3>
 <p>Samil Moret</p>
