@@ -1,13 +1,13 @@
 <h1> Bem-vindo ao Conversor de Moedas.</h1>
 
 <div alaing = center>
-<img src=https://github.com/SamilMoret/decodificador_de_texto/blob/main/image/tela-principal-decodificador.png?raw=true> 
+<img src=https://github.com/SamilMoret/conversor_de_moedas/blob/main/out/production/img_conversor.png?raw=true> 
 </div>
 
  <hr style="width: 100%; height: 2px; margin: 0;">
 
 <div alaing = center>
-<img src=https://github.com/SamilMoret/decodificador_de_texto/blob/main/image/tela-principal-decodificador.png?raw=true> 
+<img src=https://github.com/SamilMoret/conversor_de_moedas/blob/main/out/production/img_banco_de_dados.png?raw=true> 
 </div>
 
  <hr style="width: 100%; height: 2px; margin: 0;">
