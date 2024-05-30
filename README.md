@@ -20,30 +20,28 @@ https://samilmoret.github.io/decodificador_de_texto/
 
 ### Funcionalidades:
 
-<p>
-  Conversão de valores entre diferentes moedas usando taxas de câmbio atualizadas.
-  Armazenamento do histórico de conversões em um banco de dados MySQL.
-  Exibição do histórico de conversões para consulta futura.</p>
-
+<ul>
+  <li>Conversão de valores entre diferentes moedas usando taxas de câmbio atualizadas.</li>
+  <li>Armazenamento do histórico de conversões em um banco de dados MySQL.</li>
+  <li>Exibição do histórico de conversões para consulta futura.</li>
+</ul>
 
 ### 🖥️ Tecnologias e Ferramentas: 
 
-<p>
-Java: Linguagem de programação utilizada para desenvolver a aplicação.
-Gson: Biblioteca usada para fazer o parsing de JSON.
-MySQL: Banco de dados utilizado para armazenar o histórico de conversões.
-MySQL Connector/J: Driver JDBC para conectar a aplicação Java ao banco de dados MySQL.
-IntelliJ IDEA: IDE utilizada para desenvolvimento do projeto.
-</p>
+<ul>
+  <li>Java: Linguagem de programação utilizada para desenvolver a aplicação.</li>
+  <li>Gson: Biblioteca usada para fazer o parsing de JSON.</li>
+  <li>MySQL: Banco de dados utilizado para armazenar o histórico de conversões.</li>
+  <li>MySQL Connector/J: Driver JDBC para conectar a aplicação Java ao banco de dados MySQL.</li>
+  <li>IntelliJ IDEA: IDE utilizada para desenvolvimento do projeto.</li>
+</ul>
 
 ### Configuração e Execução:
 
 <h2>Pré-requisitos</h2>
-<p>
-JDK 17 ou superior
-MySQL Server
-IntelliJ IDEA (ou qualquer outra IDE de sua preferência)
-</p>
+<p>JDK 17 ou superior</p>>
+<p>MySQL Server</p>
+<p>IntelliJ IDEA (ou qualquer outra IDE de sua preferência)</p>
 
 <h2>Configuração do Banco de Dados</h2>
 
@@ -67,10 +65,10 @@ CREATE TABLE conversion_history (
 <h2>Configuração da Aplicação</h2>
 
 <ol>
-  <li>1. Clone o repositório para sua máquina local..</li>
-  <li>2. Abra o projeto na sua IDE.</li>
-  <li>3. Adicione os arquivos JAR do Gson e MySQL Connector/J ao seu projeto.</li>
-  <li>4. Configure as credenciais do banco de dados em DatabaseUtil.java:</li>
+  <li>Clone o repositório para sua máquina local..</li>
+  <li>Abra o projeto na sua IDE.</li>
+  <li>Adicione os arquivos JAR do Gson e MySQL Connector/J ao seu projeto.</li>
+  <li>Configure as credenciais do banco de dados em DatabaseUtil.java:</li>
 </ol>
 
 ```
@@ -86,8 +84,8 @@ public class DatabaseUtil {
 <h2>Executando a Aplicação</h2>
 
 <ol>
-  <li>1. Compile e execute a classe CurrencyConverter.</li>
-  <li>2. Siga as instruções no console para realizar conversões e visualizar o histórico.</li>
+  <li>Compile e execute a classe CurrencyConverter.</li>
+  <li>Siga as instruções no console para realizar conversões e visualizar o histórico.</li>
 </ol>
 
 ### Estructura do Projeto
