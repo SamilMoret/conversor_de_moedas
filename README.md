@@ -18,9 +18,10 @@
 
 
 ### ⚙️ Funcionalidades:
+
 <ol>
     <li>
-        <strong>Conversão de Moedas:</strong
+        <strong>Conversão de Moedas:</strong>
         <ul>
             <li>O aplicativo permite que os usuários selecionem a moeda de origem e a moeda de destino, e insiram o valor a ser convertido. Utilizando dados atualizados de uma API externa, o aplicativo realiza a conversão e exibe o resultado.</li>
         </ul>
@@ -44,7 +45,6 @@
         </ul>
     </li>
 </ol>
-
 
 ### 🖥️ Tecnologias e Ferramentas: 
 
