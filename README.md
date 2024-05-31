@@ -76,7 +76,7 @@
   <li>Execute o seguinte script SQL para criar a tabela necessária MySQL:</li>
 </ol>
 
-```
+```java
 CREATE TABLE conversion_history (
     id INT AUTO_INCREMENT PRIMARY KEY,
     from_currency VARCHAR(3) NOT NULL,
