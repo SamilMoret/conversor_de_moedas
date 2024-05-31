@@ -97,7 +97,7 @@ CREATE TABLE conversion_history (
   <li>Configure as credenciais do banco de dados em DatabaseUtil.java:</li>
 </ol>
 
-```
+```java
 public class DatabaseUtil {
     public static Connection getConnection() throws SQLException {
         String url = "jdbc:mysql://localhost:3306/conversion_history";
@@ -118,7 +118,7 @@ public class DatabaseUtil {
 
 ### Estructura do Projeto
 
-```
+```java
 src/
 ├── CurrencyConverter.java
 ├── ExchangeRateService.java
