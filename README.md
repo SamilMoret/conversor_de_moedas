@@ -8,7 +8,7 @@
 O Currency Converter é uma aplicação Java que permite aos usuários converter valores de uma moeda para outra usando taxas de câmbio atualizadas. A aplicação recupera os dados de taxas de câmbio de uma API externa, realiza a conversão e armazena o histórico de conversões em um banco de dados MySQL.
 
 <hr style="width: 100%; height: 2px; margin: 0;">
-![Demonstração do Conversor_de_moedas](https://github.com/SamilMoret/conversor_de_moedas/blob/main/Anima%C3%A7%C3%A3o_Conversor.gif)
+![Demonstração do Conversor](https://github.com/SamilMoret/conversor_de_moedas/blob/main/Anima%C3%A7%C3%A3o_Conversor.gif)
 
 <hr style="width: 100%; height: 2px; margin: 0;">
 
